@@ -65,7 +65,7 @@ function loadImage(searchName,callback) {
         runningOffset++;
         callback(image);
     }
-    $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?",{
+    $.getJSON("https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?",{
         tags: searchName,
         tagmode: "any",
         format: "json"
