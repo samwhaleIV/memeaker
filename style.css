@@ -1,0 +1,33 @@
+body {
+    padding: 10px;
+}
+p#subtitle {
+    font-size: 16px;
+}
+div#container {
+    width: 800px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2#title, p#subtitle {
+    text-align: center;
+}
+h2#title {
+    margin: 20px;
+}
+button#roll-button {
+    display: block;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+canvas#meme-canvas {
+    background-color: black;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: block;
+}
