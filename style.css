@@ -15,6 +15,9 @@ h2#title, p#subtitle {
 }
 h2#title {
     margin: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 45px;
 }
 button#roll-button {
     display: block;
